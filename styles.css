@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
-  background-color: white;
+  background-color: gray;
 }
 
 nav {
@@ -17,7 +17,7 @@ nav {
   padding: 0.5rem;
   gap: 0.5rem;
   border-bottom: solid 1px #aaa;
-  background-color: #eee;
+  background-color: lightskyblue;
 }
 
 nav a {
@@ -28,7 +28,8 @@ nav a {
   border: solid 1px #aaa;
   text-align: center;
   text-decoration: none;
-  color: #555;
+  background-color: lightcyan;
+  color: blue;
 }
 
 nav a[aria-current='page'] {
@@ -54,4 +55,7 @@ div {
   padding: 0px;
   border: 0px;
   font-size: x-large;
+  color: blue;
+  background-color: darkgray;
+  width: 100%;
 }
